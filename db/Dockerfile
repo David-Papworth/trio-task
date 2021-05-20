@@ -4,7 +4,7 @@ FROM mysql:5.7
 # Add a database and root password
 # For hints on how to do this, consult the mysql 5.7 image documentation
 ENV MYSQL_ROOT_PASSWORD=password MYSQL_DATBASE=flask-db
-# I know it should not be included but kept for deploy.sh file
+# I know it should not be included but kept for deploy.sh file will be removed in future runs 
 
 # Add the content of the .sql file to your image
 # All scripts copied to docker-entrypoint-initdb.d/ are automatically
