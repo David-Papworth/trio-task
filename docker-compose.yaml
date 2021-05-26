@@ -15,6 +15,5 @@ services:
     image: trio-flask-app:latest
     build: ./flask-app
   db:
-    container_name: trio-db
     image: trio-db:latest
     build: ./db
