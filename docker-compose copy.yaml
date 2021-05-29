@@ -12,8 +12,8 @@ services:
       target: /etc/nginx/nginx.conf
   flask-app:
     container_name: flask-app
-    image: trio-flask-app:latest
+    image: davidpapworth2/trio-flask-app:latest
     build: ./flask-app
   db:
-    image: trio-db:latest
+    image: davidpapworth2/trio-db:latest
     build: ./db
